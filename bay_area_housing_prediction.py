@@ -8,7 +8,7 @@ Model: GradientBoostingRegressor(n_estimators=200, learning_rate=0.05, max_depth
 Expected performance: R2=0.9274, MAPE=11.33%
 
 Usage:
-    Use termina to cd into the folder where you save the files
+    Use terminal to cd into the folder where you save the files
     python -m http.server 8080
     # open http://localhost:8080/bay_area_housing_dashboard.html
 """
