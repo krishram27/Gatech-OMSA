@@ -9,7 +9,6 @@ repository plays a vital role in bringing our solution to life.
 **generate_geojson.py** This Python file is generated
 **housing_dashboard_final.html** This HTML renders our entire dashboard using
 **bay_area_properties_kid_friendly_score_cool_score.csv** This CSV file contains
-**ML_model_predictions_compareV3.ipynb** This Jupyter file showcasese our process (insert Linlin's README content here)
 
 2. Installation
 Use the following steps to install and set up our codebase:
