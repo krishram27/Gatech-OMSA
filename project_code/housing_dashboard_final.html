@@ -131,7 +131,7 @@ h1{font-size:26px;font-weight:700}
 </div>
 
 <!--  SECTION 1: D3 Sliders + Mapbox Explore Map                  -->
-<div class="section-title">Explore by Coolness score &amp; Kids score</div>
+<div class="section-title">Explore by Coolness Score &amp; Kids Score</div>
 
 <div class="filter-grid">
   <div id="slider-panel">
@@ -191,7 +191,7 @@ h1{font-size:26px;font-weight:700}
           <th>City</th><th>County</th><th>Type</th>
           <th>Beds</th><th>Bath</th><th>Sqft</th><th>Lot Sqft</th>
           <th>Predicted Sale Price</th>
-          <th title="Coolness score">Coolness score</th>
+          <th title="Coolness Score">Coolness Score</th>
           <th>Kids Score</th>
         </tr></thead>
         <tbody></tbody>
@@ -461,7 +461,7 @@ fetch("housing_data_final.geojson?v=" + Date.now(), {cache: "no-store"})
         p.tp+" | "+p.bd+"bd / "+p.ba+"ba | "+Number(p.sf).toLocaleString()+" sqft<br>"+
         (p.lo > 0 ? "Lot: "+Number(p.lo).toLocaleString()+" sqft<br>" : "")+
         "Predicted Sale Price: <b>$"+Number(p.pp).toLocaleString()+"</b><br>"+
-        "Coolness score: "+p.ci+"&nbsp;&nbsp;Kids Score: "+p.ks+
+        "Coolness Score: "+p.ci+"&nbsp;&nbsp;Kids Score: "+p.ks+
         "<br><span style='color:#64748b;font-size:11px'>Walk: "+p.ws+
         " &nbsp; Transit: "+p.ts+"</span>"
       ).addTo(exploreMap);
@@ -510,7 +510,7 @@ fetch("housing_data_final.geojson?v=" + Date.now(), {cache: "no-store"})
         p.tp+" | "+p.bd+"bd / "+p.ba+"ba | "+Number(p.sf).toLocaleString()+" sqft<br>"+
         (p.lo > 0 ? "Lot: "+Number(p.lo).toLocaleString()+" sqft<br>" : "")+
         "Predicted Sale Price: <b>$"+Number(p.pp).toLocaleString()+"</b><br>"+
-        "Coolness score: "+p.ci+"<br>"+
+        "Coolness Score: "+p.ci+"<br>"+
         "Kids Score: "+p.ks
       ).addTo(affordMap);
     });
