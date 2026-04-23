@@ -56,17 +56,13 @@ repository plays a specific role in bringing the solution to life.
 
 Use the following steps to install and set up our codebase:
 
-  1. Create a folder on your local machine titled 'Bay_Area_Housing'
+  1. Unzip our submitted Zip file
+  
+  2. Navigate to the unzipped folder on your terminal
 
-         mkdir ~/Bay_Area_Housing
+  3. Enter the CODE folder
 
-  2. Download all the files provided in our zip file.
-
-  3. Move all downloaded files to the Bay_Area_Housing folder
-
-         mv bay_area_housing_prediction.py ~/Bay_Area_Housing
-         mv housing_dashboard_final.html   ~/Bay_Area_Housing
-         mv bay_area_properties_kid_friendly_score_cool_score.csv ~/Bay_Area_Housing
+         cd CODE
 
   4. Install the Python dependencies used by bay_area_housing_prediction.py
 
